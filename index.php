@@ -13,7 +13,7 @@ and open the template in the editor.
         <?php
         // put your code here
         
-          include('config.php');  if(isset($_POST['save']))
+   include('config.php');  if(isset($_POST['save']))
 {
 $Project_name = mysql_real_escape_string($_POST['Project_name']); // รับค่าคร้าฟฟ
 
